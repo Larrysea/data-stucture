@@ -13,5 +13,9 @@ public class PrintUtil {
         System.out.print(params);
     }
 
+    public static void print(int params)
+    {
+        System.out.println(params);
+    }
 }
 

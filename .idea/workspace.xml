@@ -9,93 +9,8 @@
       <change beforePath="" afterPath="$PROJECT_DIR$/src/ninechapter/binarytree/postOrderTraversal.java" />
       <change beforePath="" afterPath="$PROJECT_DIR$/src/ninechapter/common_datastructure/TreeNode.java" />
       <change beforePath="" afterPath="$PROJECT_DIR$/src/test/StringCompress.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/Offer.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/Bop/CpuController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/Bop/introduce" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/Bop/main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/NowCoder/BubleSort.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/NowCoder/PrintLayerTree.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/NowCoder/Rotation.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/codeprviewandata/MinStack$Minstack.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/codeprviewandata/MinStack.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/common_datastucture/TreeNode.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/common_util/CommonUtil.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/data_stucture/ListUtil.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/data_stucture/PrintUtil.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/data_stucture/SortUtil.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/data_stucture/TestCorruntException.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/data_stucture/data1_1_answer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/data_stucture/data3_1answer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/data_stucture/data3_2answer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/leetcode/IntegerToRoman.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/leetcode/LongestPalindromicSubString$Solution.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/leetcode/LongestPalindromicSubString.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/leetcode/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/leetcode/MainTwo.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/leetcode/PalindromeNumber.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/leetcode/RegularExpressionMatching.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/leetcode/ReverseInteger.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/leetcode/StringToInteger.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/leetcode/ZigZag.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/leetcode/addTwoNumbers$ListNode.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/leetcode/addTwoNumbers.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/leetcode/addTwoSum.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/leetcode/array/MaximumSwap.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/leetcode/lengthOfLongestSubstring.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/leetcode/longestSubString.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/ninechapter/StringContain.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/ninechapter/SubSets.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/offer/ComplexNodeCopy.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/offer/ConvertBtToListNode.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/offer/FibonacciNumber.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/offer/FindPath.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/offer/HasSubTree.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/offer/ListNode.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/offer/Merge.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/offer/MinStack.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/offer/NumberOf1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/offer/OutPusBackWardPositionNode.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/offer/Permutation.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/offer/Power.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/offer/PrintFromTopToBottom.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/offer/PrintMatrix.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/offer/RandomListNode.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/offer/RebuildBtree.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/offer/RectCover.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/offer/ReorderArray.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/offer/ReverseList.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/offer/ReverseListStack$ListNode.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/offer/ReverseListStack.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/offer/StackBuildQueue.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/offer/StringReplaceSpace.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/offer/TreeMirror.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/offer/TreeNode.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/offer/VerifySquenceOfBST.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/offer/minNumberInRotateArray.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/offer/testMain.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/test/DecryptString.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/test/NumberMate.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/test/TestCollection.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/test/TestData.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/testproblem/BinarySearch.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/testproblem/DeleteRepeatNode.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/testproblem/Father.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/testproblem/IntegerToString.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/testproblem/Person.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/testproblem/Singleton.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/testproblem/Son.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/testproblem/StorageStudent$student.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/testproblem/StorageStudent.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/testproblem/TestString.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/testproblem/TestTryCatch.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offer/testproblem/test.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/data_stucture/PrintUtil.java" afterPath="$PROJECT_DIR$/src/data_stucture/PrintUtil.java" />
       <change beforePath="$PROJECT_DIR$/src/ninechapter/BinarySearch.java" afterPath="$PROJECT_DIR$/src/ninechapter/BinarySearch.java" />
       <change beforePath="$PROJECT_DIR$/src/ninechapter/StringContain.java" afterPath="$PROJECT_DIR$/src/ninechapter/StringContain.java" />
@@ -210,8 +125,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+            <state relative-caret-position="114">
+              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -1081,7 +996,7 @@
       <workItem from="1516979989928" duration="5586000" />
       <workItem from="1517039885503" duration="12068000" />
       <workItem from="1517135536854" duration="499000" />
-      <workItem from="1517136066254" duration="484000" />
+      <workItem from="1517136066254" duration="549000" />
     </task>
     <task id="LOCAL-00001" summary="lint code 13题字符串包含。">
       <created>1515833796586</created>
@@ -1202,11 +1117,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517135369303</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="删除编译生成的字节码。">
+      <created>1517136596502</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1517136596502</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="243871000" />
+    <option name="totallyTimeSpent" value="243936000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1333,7 +1255,8 @@
     <MESSAGE value="计算树的最大深度。" />
     <MESSAGE value="二叉树的路径遍历。" />
     <MESSAGE value="最小子二叉树。" />
-    <option name="LAST_COMMIT_MESSAGE" value="最小子二叉树。" />
+    <MESSAGE value="删除编译生成的字节码。" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除编译生成的字节码。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1716,8 +1639,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        <state relative-caret-position="114">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
           <folding />
         </state>
       </provider>

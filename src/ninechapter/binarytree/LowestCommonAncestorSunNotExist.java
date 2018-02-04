@@ -9,7 +9,7 @@ import ninechapter.common_datastructure.TreeNode;
  * @author
  * @create 2018-02-04 下午7:05
  **/
-public class LowestCommonAncestorIII {
+public class LowestCommonAncestorSunNotExist {
 
     //如果用分治法，分成几个步骤如何划分这道题
     public static void main(String[] args) {

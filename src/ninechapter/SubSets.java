@@ -15,12 +15,11 @@ public class SubSets {
      */
 
     public static List<List<Integer>> subsets(int[] nums) {
-        List<Integer> intList=new ArrayList();
-        for(int index=0;index<nums.length;index++)
-        {
+        List<Integer> intList = new ArrayList();
+        for (int index = 0; index < nums.length; index++) {
             intList.add(nums[index]);
         }
-         Collections.sort(intList);
+        Collections.sort(intList);
         // write your code here
         if (intList.size() == 0) {
             return null;
@@ -61,12 +60,26 @@ public class SubSets {
     }
 
 
+//    /**
+//     * 求解一个数组的所有可能组合结果，需满足不重复，按递增排序
+//     *
+//     * @param nums
+//     * @return
+//     */
+//    public static List<List<Integer>> subsetsII(int[] nums) {
+//        ArrayList  arrayList=new ArrayList<Integer>(10);
+//        arrayList.add(1);
+//      new ArrayList<>(arrayList);
+//
+//    }
+
+
     //主函数
     public static void main(String[] args) {
         int nums[] = {1, 2, 3};
         int nums1[] = {0};
-        int nums2[]={4,1,0};
-        int nums3[]={1,2,3,4};
+        int nums2[] = {4, 1, 0};
+        int nums3[] = {1, 2, 3, 4};
 //        PrintUtil.print(subsets(nums));
         PrintUtil.print(subsets(nums2));
 

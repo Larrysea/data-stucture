@@ -1,5 +1,7 @@
 package data_stucture;
 
+import com.sun.org.apache.xerces.internal.util.SynchronizedSymbolTable;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -50,6 +52,16 @@ public class PrintUtil {
 
     public static void printList(List<Integer> list) {
         for (Integer param : list) {
+            System.out.println(param);
+        }
+    }
+
+
+    public static void printStringList(List<String> list) {
+        if (list == null) {
+            return;
+        }
+        for (String param : list) {
             System.out.println(param);
         }
     }

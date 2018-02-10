@@ -1,0 +1,26 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+.idea/inspectionProfiles/
+out/production/Offer/ninechapter/BinarySearch.class
+out/production/Offer/ninechapter/CloseArrayInSortedArray.class
+out/production/Offer/ninechapter/FindMaxNumberInMountainSequence.class
+out/production/Offer/ninechapter/FindMinimumInSortedArray.class
+out/production/Offer/ninechapter/FindPeek.class
+out/production/Offer/ninechapter/IsBadVersion$SVNRepo.class
+out/production/Offer/ninechapter/IsBadVersion.class
+out/production/Offer/ninechapter/LastPositionOfTarget.class
+out/production/Offer/ninechapter/SearchBigSortedArray$ArrayReader.class
+out/production/Offer/ninechapter/SearchBigSortedArray.class
+out/production/Offer/ninechapter/SearchIn2DMartix.class
+out/production/Offer/ninechapter/SearchInRotatedSortedArray.class
+out/production/Offer/ninechapter/binarytree/
+out/production/Offer/ninechapter/common_datastructure/
+out/production/Offer/test/StringCompress.class
+/out/

@@ -32,7 +32,7 @@ public class binarySearchTreePath {
 
 
     public static void traversal(String path, List<String> list, TreeNode treeNode) {
-        System.out.println("输入路经" + path);
+
         if (treeNode == null) {
             return;
         }

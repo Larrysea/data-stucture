@@ -38,6 +38,8 @@ public class FlattenBinaryTreeToLinkedList {
         TreeNode treeNode = new TreeNode(1);
         treeNode.left = new TreeNode(2);
 
+        treeNode.right = new TreeNode(5);
+
         treeNode.left.left = new TreeNode(3);
 
         treeNode.left.right = new TreeNode(4);

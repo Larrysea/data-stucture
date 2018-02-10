@@ -104,4 +104,19 @@ public class StringContain {
     }
 
 
+//    /**
+//     * 时间复杂度为O(n+m的字符串查找解法)
+//     *
+//     * @param source
+//     * @param target
+//     * @return
+//     */
+//    public static int strStr2(String source, String target)
+//    {
+//
+//
+//
+//    }
+
+
 }

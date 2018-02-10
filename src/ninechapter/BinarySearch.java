@@ -10,11 +10,11 @@ import data_stucture.PrintUtil;
  **/
 public class BinarySearch {
     public static void main(String [] args) {
-       int test[]={1,2,4,5,70};
+       int test[]={1,2,3,3,4,5,5,70};
        int test1[]={1,4};
        int test2[]={1};
        int test3[]={6};
-       PrintUtil.print(binarySearch(test,69));
+       PrintUtil.print(binarySearch(test,3));
        PrintUtil.print(binarySearch(test1,4));
        PrintUtil.print(binarySearch(test1,1));
        PrintUtil.print(binarySearch(test2,1));
@@ -31,7 +31,7 @@ public class BinarySearch {
         int start = 0;
         int end = nums.length - 1;
 
-        while (start + 1 < end) {
+        while (start +1 < end) {
             int mid = start + (end - start) / 2;
             if (nums[mid] == target) {
                 end = mid;

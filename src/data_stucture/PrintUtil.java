@@ -66,5 +66,13 @@ public class PrintUtil {
         }
     }
 
+    public static void printArray(final int[] array) {
+        if (array != null && array.length > 0) {
+            for (int index = 0; index < array.length; index++) {
+                System.out.print(" " + array[index]);
+            }
+        }
+    }
+
 }
 

@@ -14,6 +14,10 @@ import java.util.Queue;
 public class ZombieInMatrix {
 
 
+    //该算法思路，首先遍历一遍计算出所有人类的数量
+    //然后进行宽搜，每一次宽搜将周围变成僵尸，这个宽搜记录天数
+    //而这个宽搜遍历的队列长度不是实时的，而是这一天的僵尸数量，当天新转化的僵尸不纳入队伍考虑
+
     static class Coordinate {
         int x, y;
 

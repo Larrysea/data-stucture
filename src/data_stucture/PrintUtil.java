@@ -57,12 +57,22 @@ public class PrintUtil {
     }
 
 
-    public static void printStringList(List<String> list) {
+    public static void printlnStringList(List<String> list) {
         if (list == null) {
             return;
         }
         for (String param : list) {
             System.out.println(param);
+        }
+    }
+
+
+    public static void printStringList(List<String> list) {
+        if (list == null) {
+            return;
+        }
+        for (String param : list) {
+            System.out.print(param + " ");
         }
     }
 
@@ -91,7 +101,7 @@ public class PrintUtil {
     public static void printMatrix(boolean[][] matrix) {
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[i].length; j++) {
-                System.out.print(matrix[i][j]+" ");
+                System.out.print(matrix[i][j] + " ");
             }
             System.out.println();
         }
@@ -99,6 +109,13 @@ public class PrintUtil {
     }
 
 
+    public static void printStringListList(List<List<String>> list) {
+        for (List<String> sonList : list) {
+            printStringList(sonList);
+            System.out.println();
+
+        }
+    }
 
 
 }

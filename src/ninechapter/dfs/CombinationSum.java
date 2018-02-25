@@ -1,4 +1,4 @@
-package ninechapter.bfs;
+package ninechapter.dfs;
 
 import data_stucture.PrintUtil;
 

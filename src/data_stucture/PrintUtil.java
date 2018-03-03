@@ -117,6 +117,13 @@ public class PrintUtil {
         }
     }
 
+    public static void isTrue(boolean bool) {
+        if (bool) {
+            System.out.println(true);
+        } else {
+            System.out.println(false);
+        }
+    }
 
 }
 

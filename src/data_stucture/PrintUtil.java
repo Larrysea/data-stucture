@@ -126,5 +126,9 @@ public class PrintUtil {
         }
     }
 
+
+    public static void print(double params) {
+        System.out.println(params);
+    }
 }
 

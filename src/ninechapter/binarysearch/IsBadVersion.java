@@ -1,4 +1,4 @@
-package ninechapter;
+package ninechapter.binarysearch;
 
 import data_stucture.PrintUtil;
 

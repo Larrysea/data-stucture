@@ -1,4 +1,4 @@
-package ninechapter;
+package ninechapter.basicpratice;
 
 import com.sun.deploy.util.ArrayUtil;
 import com.sun.tools.javac.util.ArrayUtils;

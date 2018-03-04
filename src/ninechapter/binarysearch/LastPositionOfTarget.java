@@ -1,4 +1,4 @@
-package ninechapter;
+package ninechapter.binarysearch;
 
 /**
  * 通过二分搜索找出数组中最后一个出现的位置

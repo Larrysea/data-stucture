@@ -1,4 +1,4 @@
-package ninechapter;
+package ninechapter.binarysearch;
 
 import data_stucture.PrintUtil;
 
@@ -8,7 +8,7 @@ import data_stucture.PrintUtil;
  * @author
  * @create 2018-01-21 下午7:15
  **/
-public class FindPeek {
+public class   FindPeek {
 
 
     public static void main(String[] args) {

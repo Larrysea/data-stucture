@@ -82,6 +82,7 @@ public class PrintUtil {
                 System.out.print(" " + array[index]);
             }
         }
+        System.out.println();
     }
 
 

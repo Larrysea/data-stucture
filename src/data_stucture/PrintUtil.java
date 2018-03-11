@@ -52,8 +52,9 @@ public class PrintUtil {
 
     public static void printList(List<Integer> list) {
         for (Integer param : list) {
-            System.out.println(param);
+            System.out.print(param);
         }
+        System.out.println();
     }
 
 
@@ -129,6 +130,14 @@ public class PrintUtil {
 
     public static void print(double params) {
         System.out.println(params);
+    }
+
+
+    public static void printCharArray(char[] array) {
+        for (char ch : array) {
+            System.out.print(ch + "  ");
+        }
+        System.out.println();
     }
 }
 

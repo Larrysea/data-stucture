@@ -2,6 +2,8 @@ package ninechapter.towpointer;
 
 import data_stucture.PrintUtil;
 
+import java.util.HashMap;
+
 /**
  * 找出数组中两个数之和为target的下标
  *
@@ -45,6 +47,26 @@ public class twoSum {
                 }
             }
 
+        }
+
+        return result;
+    }
+
+
+    //时间复杂度为o(n)的解法
+    public static int[] twoSumII(int[] numbers, int target) {
+
+        HashMap<Integer, Integer> resultMap = new HashMap<>();
+
+        int[] result = new int[2];
+        for (int i = 0; i < numbers.length; i++) {
+            if (resultMap.get(numbers[i]) != null) {
+                result[0] = resultMap.get(numbers[i]);
+                result[1] = i;
+                return result;
+            }
+            //存储当前需要的另一个值
+            resultMap.put(target - numbers[i], i);
         }
 
         return result;

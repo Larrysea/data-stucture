@@ -2,6 +2,7 @@ package ninechapter.towpointer;
 
 import data_stucture.PrintUtil;
 
+import java.lang.reflect.Array;
 import java.util.Arrays;
 
 /**
@@ -18,6 +19,7 @@ public class LessTargetCount {
         int[] testCase2 = {1, 0, -1};
         int target = 24;
         PrintUtil.print(twoSum5(testCase2, 0));
+        PrintUtil.print(twoSum5II(testCase1, 24));
     }
 
 
@@ -39,6 +41,34 @@ public class LessTargetCount {
 
         }
         return pairCount;
-
     }
+
+
+    //计算两数之和
+    public static int twoSum5II(int[] nums, int target) {
+        if (nums == null || nums.length == 0) {
+            return 0;
+        }
+
+        int left = 0;
+        int right = nums.length - 1;
+
+        Arrays.sort(nums);
+        int count = 0;
+
+        while (left < right) {
+
+            int value = nums[left] + nums[right];
+
+            if (value > target) {
+                right--;
+            } else {
+                count += right - left;
+                left++;
+            }
+        }
+
+        return count;
+    }
+
 }

@@ -16,7 +16,9 @@ public class PartitionArray {
     public static void main(String[] args) {
         int[] testCase1 = {3, 2, 2, 1};
         int testTarget = 2;
-        PrintUtil.print(partitionArray(testCase1, testTarget));
+        int[] testCase2 = {9, 9, 9, 8, 9, 8, 7, 9, 8, 8, 8, 9, 8, 9, 8, 8, 6, 9};
+        int testTarget2 = 18;
+        PrintUtil.print(partitionArray(testCase2, testTarget2));
 
     }
 
@@ -48,6 +50,39 @@ public class PartitionArray {
         }
 
         return kIndex;
+    }
+
+
+    public static int partitionArrayII(int[] nums, int k) {
+
+        if (nums == null || nums.length == 0) {
+            return 0;
+        }
+        int left = 0;
+        int right = nums.length - 1;
+        while (left <= right) {
+
+            while (left <= right && nums[left] < k) {
+                left++;
+            }
+
+            while (left <= right && nums[right] >= k) {
+                right--;
+            }
+
+
+            if (left < right) {
+                int temp = nums[left];
+                nums[left] = nums[right];
+                nums[right] = temp;
+
+                right--;
+                left++;
+            }
+        }
+
+        return left;
 
     }
+
 }

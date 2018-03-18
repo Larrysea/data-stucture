@@ -60,6 +60,7 @@ public class PartitionArray {
         }
         int left = 0;
         int right = nums.length - 1;
+        //等于是为了确保数一定被划分过
         while (left <= right) {
 
             while (left <= right && nums[left] < k) {

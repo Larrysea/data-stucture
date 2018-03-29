@@ -36,18 +36,7 @@ public class KLargestNumbers {
      * @return: description of return
      */
     public static int kthLargestElement(int k, int[] nums) {
-        // write your code here
-        if (k < 1 || nums == null) {
-            return 0;
-        }
         return quickSelect(nums, k, 0, nums.length - 1);
-    }
-
-
-    private static void swap(int nums[], int i, int k) {
-        int temp = nums[i];
-        nums[i] = nums[k];
-        nums[k] = temp;
     }
 
     //快速选择算法
@@ -80,12 +69,55 @@ public class KLargestNumbers {
 
         //如果现在的的位置在k以内
         if (start + k - 1 <= right) {
-            quickSelect(nums, k, start, right);
+            return quickSelect(nums, k, start, right);
         }
 
         //如果超过k
         if (start + k - 1 >= left) {
-            quickSelect(nums, k - (left - start), left, end);
+            return quickSelect(nums, k - (left - start), left, end);
+        }
+
+        return nums[right + 1];
+    }
+
+
+    /*
+     * @param k : description of k
+     * @param nums : array of nums
+     * @return: description of return
+     */
+    public static int kthLargestElementII(int k, int[] nums) {
+        return quickSelectII(nums, 0, nums.length - 1, k);
+    }
+
+    private static int quickSelectII(int[] nums, int start, int end, int k) {
+        int left = start, right = end;
+        int pivot = nums[(start + end) / 2];
+
+        while (left <= right) {
+            while (left <= right && nums[left] > pivot) {
+                left++;
+            }
+            while (left <= right && nums[right] < pivot) {
+                right--;
+            }
+
+            if (left <= right) {
+                int temp = nums[left];
+                nums[left] = nums[right];
+                nums[right] = temp;
+
+                left++;
+                right--;
+            }
+        }
+
+        if (start + k - 1 <= right) {
+            return quickSelectII(nums, start, right, k);
+        }
+
+        if (start + k - 1 >= left) {
+            return quickSelectII(nums, left, end, k - (left - start));
         }
 
         return nums[right + 1];

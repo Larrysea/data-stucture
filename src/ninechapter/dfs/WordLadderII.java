@@ -15,13 +15,19 @@ public class WordLadderII {
 
     public static void main(String[] args) {
         String[] strings = {"hot", "dot", "dog", "lot", "log"};
+        String[] strings2 = {"a", "b", "c"};
         Set<String> dict = new LinkedHashSet<>();
-        for (String word : strings) {
+        for (String word : strings2) {
             dict.add(word);
         }
         String start = "hit";
         String end = "cog";
-        PrintUtil.printStringListList(findLadders(start, end, dict));
+
+        String start1 = "a";
+        String end1 = "c";
+
+        PrintUtil.print(ladderLength(start1, end1, dict));
+//        PrintUtil.printStringListList(findLadders(start, end, dict));
 //        PrintUtil.printStringList(expand(start, dict));
     }
 
@@ -54,6 +60,37 @@ public class WordLadderII {
 
     }
 
+
+    public static int ladderLength(String start, String end, Set<String> dict) {
+        // write your code here
+        // write your code here
+
+        List<List<String>> result = new ArrayList<List<String>>();
+
+        List<String> path = new ArrayList<String>();
+
+        Map<String, Integer> distance = new HashMap<>();
+
+        Map<String, List<String>> neighborMap = new HashMap<>();
+
+        dict.add(start);
+        dict.add(end);
+
+        bfs(neighborMap, distance, start, dict);
+
+        dfs(result, path, distance, neighborMap, start, end);
+
+        int minLength = Integer.MAX_VALUE;
+
+        for (int i = 0; i < result.size(); i++) {
+
+            if (minLength > result.get(i).size()) {
+                minLength = result.get(i).size();
+            }
+        }
+
+        return minLength;
+    }
 
     //通过dfs来寻找路径
     //reuslt参数是所有最短的路径
@@ -156,8 +193,6 @@ public class WordLadderII {
         }
         return true;
     }
-
-
 
 
 }

@@ -15,7 +15,7 @@ public class TreeNode {
         this.left = left;
     }
 
-    TreeNode left;    //左子树
+    public  TreeNode left;    //左子树
 
     public TreeNode getRight() {
         return right;
@@ -25,13 +25,13 @@ public class TreeNode {
         this.right = right;
     }
 
-    TreeNode right;   //右子树
+    public TreeNode right;   //右子树
 
     public int getVal() {
         return val;
     }
 
-    int val;          //树的值
+    public int val;          //树的值
     public TreeNode(int value) {
         this.val = value;
     }

@@ -73,7 +73,7 @@ public class PrintUtil {
             return;
         }
         for (String param : list) {
-            System.out.print(param + " ");
+            System.out.println(param);
         }
     }
 

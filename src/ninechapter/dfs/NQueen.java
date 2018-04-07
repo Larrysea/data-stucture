@@ -14,7 +14,8 @@ import java.util.List;
 public class NQueen {
 
     public static void main(String[] args) {
-        PrintUtil.printStringListList(solveNQueens(4));
+        //n皇后问题的数量必须哟啊大于3 否则肯定不满足条件，但是也要小于
+        PrintUtil.printStringListList(solveNQueens(13));
 
     }
 

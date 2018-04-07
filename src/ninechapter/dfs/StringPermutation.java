@@ -41,8 +41,6 @@ public class StringPermutation {
     public static List<String> stringPermutation2(String str) {
         // write your code here
         //结题思路，通过字符字段排序，如果字母一样，则跳过，避免字母重复问题，然后用dfs计算出所有组合
-        // write your code here
-        //结题思路，通过字符字段排序，如果字母一样，则跳过，避免字母重复问题，然后用dfs计算出所有组合
         char[] charArray = str.toCharArray();
         Arrays.sort(charArray);
         List<String> result = new ArrayList<>();
@@ -58,6 +56,7 @@ public class StringPermutation {
         }
 
         for (int i = 0; i < str.length(); i++) {
+            //为何添加!visted[i-1] 这个条件
             if (visted[i] || (i != 0 && str.charAt(i) == str.charAt(i - 1) && !visted[i - 1])) {
                 continue;
             }

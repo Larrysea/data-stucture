@@ -13,7 +13,7 @@ import java.util.HashMap;
 public class FirstUniqueCharacter {
 
     public static void main(String[] args) {
-        PrintUtil.print(firstUniqChar("abaccdeff"));
+        PrintUtil.print((char)firstUniqChar("abaccdeff"));
     }
 
 
@@ -31,20 +31,20 @@ public class FirstUniqueCharacter {
         }
 
 
-        HashMap<String, Integer> charCount = new HashMap<>();
+        HashMap<Character, Integer> charCount = new HashMap<>();
 
         for (int i = 0; i < str.length(); i++) {
 
-            if (charCount.get(String.valueOf(str.charAt(i))) != null) {
-                charCount.put(String.valueOf(str.charAt(i)), charCount.get(String.valueOf(str.charAt(i)) + 1));
+            if (charCount.containsKey(str.charAt(i))) {
+                charCount.put(str.charAt(i), charCount.get(str.charAt(i)) + 1);
             } else {
-                charCount.put(String.valueOf(str.charAt(i)), 1);
+                charCount.put(str.charAt(i), 1);
             }
         }
 
         for (int i = 0; i < str.length(); i++) {
-            if (charCount.get(String.valueOf(str.charAt(i))) != null && charCount.get(String.valueOf(str.charAt(i))) == 1) {
-                return str.charAt(i);
+            if (charCount.get(str.charAt(i)) != null && charCount.get(str.charAt(i)) == 1) {
+                return (char) str.charAt(i);
             }
         }
 

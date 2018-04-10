@@ -16,27 +16,27 @@ public class UglyNumberII {
 
     public int nthUglyNumber(int n) {
         // write your code here
-        HashSet<Long> uglySet = new HashSet<>();
+        HashSet<Integer> uglySet = new HashSet<>();
 
-        Queue<Long> queue = new PriorityQueue<>();
-        long[] array = {2, 3, 5};
+        Queue<Integer> queue = new PriorityQueue<>();
+        Integer[] array = {2, 3, 5};
         for (int i = 0; i < 3; i++) {
             uglySet.add(array[i]);
             queue.offer(array[i]);
         }
 
-        Long number = 1l;
+        Integer number = 1;
 
         for (int i = 1; i < n; i++) {
             number = queue.poll();
             for (int j = 0; j < 3; j++) {
-                if (!uglySet.contains(number * array[i])) {
-                    uglySet.add(number * array[i]);
-                    queue.offer(number * array[i]);
+                if (!uglySet.contains(number * array[j])) {
+                    uglySet.add(number * array[j]);
+                    queue.offer(number * array[j]);
                 }
             }
         }
 
-        return number.intValue();
+        return number;
     }
 }

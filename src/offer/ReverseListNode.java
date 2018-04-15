@@ -21,6 +21,9 @@ public class ReverseListNode {
 
 
     public static ListNode ReverseList(ListNode head) {
+        if (head == null) {
+            return null;
+        }
         //首先移动到链表尾部
         ListNode tail = null;
 

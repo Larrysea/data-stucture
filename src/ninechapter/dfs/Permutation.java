@@ -62,7 +62,7 @@ public class Permutation {
 
 
     public static void main(String[] args) {
-        int[] testCase1 = {};
+        int[] testCase1 = {1, 1};
         PrintUtil.print(permute(testCase1));
 
     }

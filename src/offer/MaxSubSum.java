@@ -13,26 +13,20 @@ public class MaxSubSum {
 
     public static void main(String[] args) {
         int[] testCase = {6, -3, -2, 7, -15, 1, 2, 2};
-        PrintUtil.print(FindGreatestSumOfSubArray(testCase));
+
+        int[] testCase2 = {1, -2, 3, 10, -4, 7, 2, -5};
+
+        PrintUtil.print(FindGreatestSumOfSubArray(testCase2));
     }
 
     public static int FindGreatestSumOfSubArray(int[] array) {
-
-        if (array.length == 0) {
-            return -1;
-        }
-
         int sum = 0;
-
         int maxSum = Integer.MIN_VALUE;
-
         for (int i = 0; i < array.length; i++) {
-            sum += array[i];
-            if (sum == 0) {
+            if (sum < 0) {
                 sum = 0;
-                continue;
             }
-
+            sum += array[i];
             if (sum > maxSum) {
                 maxSum = sum;
             }

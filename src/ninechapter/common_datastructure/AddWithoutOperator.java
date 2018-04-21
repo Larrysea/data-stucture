@@ -18,32 +18,38 @@ public class AddWithoutOperator {
 
     }
 
+    private static int result = 0;
+
     public static int Add(int num1, int num2) {
 
-        int result = 0;
+        result = 0;
 
         if (num1 > 0) {
-            for (int i = 0; i < num1; i++) {
-                result++;
-            }
+            add(num1, true);
         } else {
-            for (int i = 0; i < -num1; i++) {
-                result--;
-            }
+            add(num1, false);
         }
 
         if (num2 > 0) {
-            for (int j = 0; j < num2; j++) {
-                result++;
-            }
+            add(num2, true);
         } else {
-            for (int j = 0; j < -num2; j++) {
-                result--;
-            }
+            add(num2, false);
         }
 
 
         return result;
-
     }
+
+    public static int add(int num, boolean isPositive) {
+        num = Math.abs(num);
+        for (int i = 0; i < num; i++) {
+            if (isPositive) {
+                result++;
+            } else {
+                result--;
+            }
+        }
+        return result;
+    }
+
 }

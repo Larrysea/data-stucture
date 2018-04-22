@@ -8,90 +8,51 @@ package offer;
 public class HasSubTree {
 
 
-    /**
-     * @param root1 parentTree 父亲树
-     * @param root2 subTree    子树
-     * @return
-     */
-    public static boolean hasSubtree(TreeNode root1, TreeNode root2) {
-            //如果根节点相同继续判断左右子树
-        if (root1.val == root2.val) {
-            //判断左子树是否相等
-            if (isEqual(root1.left, root2.left)) {
-                //判断右子树是否相等
-                if (isEqual(root1.right, root2.right)) {
-                    return true;
-                }
-                else
-                {
-                    hasSubtree(root1.left,root2);
-                }
-            }else
-            {
-                hasSubtree(root1.left,root2);
-            }
-        }
-        //如果根节点不同判断左子树还有右子树
-        else {
-            hasSubtree(root1.left, root2);
-            hasSubtree(root1.right, root2);
-        }
-        return false;
+    public static void main(String[] args) {
+
     }
 
+    public boolean HasSubtree(TreeNode root1, TreeNode root2) {
 
-    /**
-     * 判断两个节点是否围攻
-     *
-     * @param listNode1
-     * @param listNode2
-     * @return
-     */
-    public static boolean isEqual(TreeNode listNode1, TreeNode listNode2) {
+        boolean result = false;
+        //解题思路先找公共父节点
+        if (root1 != null && root2 != null) {
+            if (root1.val == root2.val) {
+                result = isEqual(root1, root2);
+            }
 
-        //节点为空的情况相等
-        if (listNode1 == listNode2 && listNode1 == null) {
+            if (!result) {
+                result = HasSubtree(root1.left, root2);
+            }
+
+
+            if (!result) {
+                result = HasSubtree(root1.right, root2);
+            }
+
+        }
+
+        return result;
+
+    }
+
+    //判断是否相等
+    private boolean isEqual(TreeNode node1, TreeNode node2) {
+        //子树先到叶子节点
+        if (node2 == null) {
             return true;
         }
-        //节点不为空的情况
-        else if (listNode1 != null && listNode2 != null) {
-            if (listNode1.val == listNode2.val) {
-                return true;
-            } else {
-                return false;
-            }
-        }
-        //节点一个为空一个不为空的情况这种为false
-        else {
+        //父亲树先到叶子节点
+        if (node1 == null) {
             return false;
         }
-    }
 
-    public static void main(String[] args) {
-        /*
-        * 父亲树
-        * */
-        TreeNode parentTree;
-        /*
-        * 子树
-        * */
-        TreeNode subTree;
+        if(node1.val!=node2.val)
+        {
+            return false;
+        }
 
-
+        return isEqual(node1.left, node2.left) && isEqual(node1.right, node2.right);
 
     }
-
-
-    /**
-     * 初始化树
-     *
-     * @param array
-     * @return
-     */
-  /*  public TreeNode initTree(int [] array)
-    {
-
-    }
-*/
-
 }

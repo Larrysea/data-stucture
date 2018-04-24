@@ -1,6 +1,7 @@
 package data_stucture;
 
 import com.sun.org.apache.xerces.internal.util.SynchronizedSymbolTable;
+import offer.ListNode;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -47,7 +48,16 @@ public class PrintUtil {
         for (String params : result) {
             System.out.println(params);
         }
+    }
 
+    public static void print(ArrayList<ArrayList<Integer>> integerList) {
+        List<String> result = new ArrayList<String>();
+        for (int i = 0; i < integerList.size(); i++) {
+            result.add(integerList.get(i).toString());
+        }
+        for (String params : result) {
+            System.out.println(params);
+        }
     }
 
     public static void printList(List<Integer> list) {
@@ -138,6 +148,20 @@ public class PrintUtil {
             System.out.print(ch + "  ");
         }
         System.out.println();
+    }
+
+
+    public static void printListNode(ListNode listNode) {
+        ListNode point = listNode;
+        while (point != null) {
+            System.out.print(point.val + " ");
+            point = point.next;
+        }
+
+    }
+
+    public static void print(boolean boolValue) {
+        System.out.println(boolValue);
     }
 }
 

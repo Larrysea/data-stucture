@@ -28,44 +28,29 @@ public class RemoveRepeatNode {
 
 
     public static ListNode deleteDuplication(ListNode pHead) {
-        if (pHead == null) {
-            return pHead;
-        }
+        ListNode head = new ListNode(-1);
+        head.next = pHead;
+        ListNode current = pHead;
 
-        ListNode point = pHead;
+        ListNode last = head;
+        while (current != null && current.next != null) {
 
-        boolean isNeedDelete = false;
+            //如果节点值相等
+            if (current.val == current.next.val) {
+                int val = current.val;
 
-        ListNode preNode = null;
-
-        while (point != null) {
-            //节点重复删除下个节点
-            if (point.next != null && point.val == point.next.val) {
-                isNeedDelete = true;
-            }
-
-            //是否需要删除节点
-            if (!isNeedDelete) {
-                preNode = point;
-                point = point.next;
-            } else {
-                int value = point.val;
-                ListNode deleteNode = point;
-                while (deleteNode != null && deleteNode.val == value) {
-                    point.next = deleteNode.next;
-                    deleteNode = point.next;
+                while (current != null && current.val == val) {
+                    current = current.next;
                 }
-            }
-
-            //开始节点为空
-            if (preNode == null) {
-                pHead = point.next;
-
+                last.next = current;
             } else {
-                preNode.next = point;
+                last = current;
+                current = current.next;
             }
-            point = point.next;
+
+
         }
-        return pHead;
+
+        return head.next;
     }
 }

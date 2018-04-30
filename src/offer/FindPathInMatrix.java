@@ -12,7 +12,8 @@ public class FindPathInMatrix {
 
 
     public static void main(String[] args) {
-        char[] matrix = {'a', 'b', 'e', 'e', 's', 'f', 'c', 's', 'a', 'd', 'e', 'e'};
+        char[] matrix = {'a', 'b', 'c', 'e', 's', 'f', 'c', 's', 'a', 'd', 'e', 'e'};
+
         char[] path = {'b', 'c', 'c', 'e', 'd'};
         char[] matrix1 = {'A', 'B', 'C', 'E', 'S', 'F', 'C', 'S', 'A', 'D', 'E', 'E'};
         char[] path1 = {'A', 'B', 'C', 'B'};
@@ -27,6 +28,10 @@ public class FindPathInMatrix {
         }
 
         boolean[] visitedArray = new boolean[matrix.length];
+
+        for (int i = 0; i < visitedArray.length; i++) {
+            visitedArray[i] = false;
+        }
 
 //        int pathLength = 0;
         for (int i = 0; i < rows; i++) {
@@ -46,16 +51,10 @@ public class FindPathInMatrix {
     private static boolean hasPathCore(char[] matrix, int rows, int cols, int row, int col, boolean[] vistedArray, int pathLength, char[] str) {
         boolean hasPath = false;
 
-        if (row >= 0 && row < rows
-                && col >= 0 && col < cols) {
-            //如果路径长度最终达到和结果路径长度一样标识存在这么一条路径
-            if (pathLength == str.length - 1 && matrix[row * cols + col] == str[pathLength]) {
-                System.out.println(matrix[row * cols + col]);
-                return true;
-            }
-
+        // 如果长度相等的时候返回true
+        if (pathLength == str.length) {
+            return true;
         }
-
 
         //如果当前路访问的字符和路径中字符相等，则进行下一步的判断
         if (row >= 0 && row < rows
@@ -63,7 +62,6 @@ public class FindPathInMatrix {
                 && matrix[row * cols + col] == str[pathLength]
                 && !vistedArray[row * cols + col]) {
 
-            System.out.println(matrix[row * cols + col]);
 
             ++pathLength;
 

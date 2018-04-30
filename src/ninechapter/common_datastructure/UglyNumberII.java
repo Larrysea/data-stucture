@@ -16,7 +16,7 @@ import java.util.Queue;
 public class UglyNumberII {
 
     public static void main(String[] args) {
-        PrintUtil.print(nthUglyNumber(1500));
+        PrintUtil.print(nthUglyNumber(2));
     }
 
 
@@ -26,19 +26,19 @@ public class UglyNumberII {
 
         uglyNumberArray[0] = 1;
 
-        int p2 = 0;
-        int p3 = 0;
-        int p5 = 0;
+        int p2 = 1;
+        int p3 = 1;
+        int p5 = 1;
         int nextIndex = 1;
 
 
         while (nextIndex < n) {
 
-            //找出下一个最小的丑数
+            //找出三种可能中最小的数作为下一个数
             int min = min(p2 * 2, p3 * 3, p5 * 5);
 
             uglyNumberArray[nextIndex] = min;
-            //找出大于当前丑数的下个乘的数
+            //找出大于当前丑数的下个乘的数，
             while (p2 * 2 <= uglyNumberArray[nextIndex]) {
                 p2++;
             }

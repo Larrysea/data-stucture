@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list id="5ad1fea9-655d-4a65-9122-6515b89e1b7f" name="dontcommit" comment="" />
     <list default="true" id="770322d9-c141-4dbf-9b83-5606df9aa48c" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/array/RemoveDuplicateArray.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -76,11 +77,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MoveZero.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MoveZero.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/array/MoveZero.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="70" column="31" lean-forward="true" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
+            <state relative-caret-position="609">
+              <caret line="79" column="35" lean-forward="true" selection-start-line="79" selection-start-column="35" selection-end-line="79" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RemoveDuplicateArray.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/array/RemoveDuplicateArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="457">
+              <caret line="51" column="24" lean-forward="true" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -128,16 +139,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MergeTwoSortedArray.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/interview/MergeTwoSortedArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -169,7 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/offer/LeesKNumber.java" />
         <option value="$PROJECT_DIR$/src/offer/MaxSubSum.java" />
         <option value="$PROJECT_DIR$/src/offer/UniqueChar.java" />
         <option value="$PROJECT_DIR$/src/offer/FindFirstCommonNode.java" />
@@ -220,6 +220,7 @@
         <option value="$PROJECT_DIR$/src/leetcode/array/MoveZero.java" />
         <option value="$PROJECT_DIR$/src/test/test.java" />
         <option value="$PROJECT_DIR$/src/leetcode/array/MoveZero.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/array/RemoveDuplicateArray.java" />
       </list>
     </option>
   </component>
@@ -397,7 +398,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MoveZero">
+  <component name="RunManager" selected="Application.RemoveDuplicateArray">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -424,14 +425,14 @@
       <module name="Offer" />
       <envs />
     </configuration>
-    <configuration name="MergeTwoSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="MoveZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="interview.*" />
+          <option name="PATTERN" value="leetcode.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="interview.MergeTwoSortedArray" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.array.MoveZero" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -443,14 +444,14 @@
       <module name="Offer" />
       <envs />
     </configuration>
-    <configuration name="MoveZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="RemoveDuplicateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="leetcode.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="leetcode.array.MoveZero" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.array.RemoveDuplicateArray" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -892,19 +893,19 @@
       <envs />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.MergeTwoSortedArray" />
-      <item index="1" class="java.lang.String" itemvalue="Application.RemoveRepeatNode" />
-      <item index="2" class="java.lang.String" itemvalue="Application.test" />
-      <item index="3" class="java.lang.String" itemvalue="Application.LongestPalindromeSubstring" />
-      <item index="4" class="java.lang.String" itemvalue="Application.MoveZero" />
+      <item index="0" class="java.lang.String" itemvalue="Application.RemoveRepeatNode" />
+      <item index="1" class="java.lang.String" itemvalue="Application.test" />
+      <item index="2" class="java.lang.String" itemvalue="Application.LongestPalindromeSubstring" />
+      <item index="3" class="java.lang.String" itemvalue="Application.MoveZero" />
+      <item index="4" class="java.lang.String" itemvalue="Application.RemoveDuplicateArray" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.MoveZero" />
-        <item index="1" class="java.lang.String" itemvalue="Application.test" />
-        <item index="2" class="java.lang.String" itemvalue="Application.LongestPalindromeSubstring" />
-        <item index="3" class="java.lang.String" itemvalue="Application.RemoveRepeatNode" />
-        <item index="4" class="java.lang.String" itemvalue="Application.MergeTwoSortedArray" />
+        <item index="0" class="java.lang.String" itemvalue="Application.RemoveDuplicateArray" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MoveZero" />
+        <item index="2" class="java.lang.String" itemvalue="Application.test" />
+        <item index="3" class="java.lang.String" itemvalue="Application.LongestPalindromeSubstring" />
+        <item index="4" class="java.lang.String" itemvalue="Application.RemoveRepeatNode" />
       </list>
     </recent_temporary>
   </component>
@@ -1052,7 +1053,7 @@
       <workItem from="1532445576268" duration="1602000" />
       <workItem from="1532528615895" duration="3110000" />
       <workItem from="1532606568333" duration="338000" />
-      <workItem from="1532748789876" duration="15801000" />
+      <workItem from="1532748789876" duration="20692000" />
     </task>
     <task id="LOCAL-00047" summary="合并k个排序数组。">
       <created>1523774678234</created>
@@ -1401,7 +1402,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="486298000" />
+    <option name="totallyTimeSpent" value="491189000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1638,13 +1639,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/io/InputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5092">
-          <caret line="291" column="76" lean-forward="false" selection-start-line="291" selection-start-column="76" selection-end-line="291" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/io/Writer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5149">
@@ -2011,8 +2005,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/array/MoveZero.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="70" column="31" lean-forward="true" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
+        <state relative-caret-position="609">
+          <caret line="79" column="35" lean-forward="true" selection-start-line="79" selection-start-column="35" selection-end-line="79" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/array/RemoveDuplicateArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="51" column="24" lean-forward="true" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
           <folding />
         </state>
       </provider>

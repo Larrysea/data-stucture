@@ -4,21 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/src/offer/MinStack.java" line="63" />
   </component>
   <component name="ChangeListManager">
-    <list id="5ad1fea9-655d-4a65-9122-6515b89e1b7f" name="dontcommit" comment="">
+    <list id="5ad1fea9-655d-4a65-9122-6515b89e1b7f" name="dontcommit" comment="" />
+    <list default="true" id="770322d9-c141-4dbf-9b83-5606df9aa48c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
-    <list default="true" id="770322d9-c141-4dbf-9b83-5606df9aa48c" name="Default" comment="。">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/data_stucture/sort/HeapSort.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/interview/StringToInt.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/mockreview/bytedance/IsPolygen.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/ninechapter/common_datastructure/MedianOfKSortedArray.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/offer/FindNumberAppearOnce.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/offer/LastRemaining.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/offer/UglyNumber.java" />
-      <change beforePath="$PROJECT_DIR$/src/ninechapter/basicpratice/LongestPalindromeSubstring.java" afterPath="$PROJECT_DIR$/src/ninechapter/basicpratice/LongestPalindromeSubstring.java" />
-      <change beforePath="$PROJECT_DIR$/src/offer/RemoveRepeatNode.java" afterPath="$PROJECT_DIR$/src/offer/RemoveRepeatNode.java" />
-      <change beforePath="$PROJECT_DIR$/src/offer/RobotMovingCount.java" afterPath="$PROJECT_DIR$/src/offer/RobotMovingCount.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/test.java" afterPath="$PROJECT_DIR$/src/test/test.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -91,8 +79,8 @@
       <file leaf-file-name="MoveZero.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/leetcode/array/MoveZero.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="46" lean-forward="true" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+            <state relative-caret-position="438">
+              <caret line="70" column="31" lean-forward="true" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -242,9 +230,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="1680" />
-    <option name="height" value="1027" />
+    <option name="x" value="-473" />
+    <option name="y" value="-1417" />
+    <option name="width" value="2560" />
+    <option name="height" value="1417" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -1063,21 +1052,7 @@
       <workItem from="1532445576268" duration="1602000" />
       <workItem from="1532528615895" duration="3110000" />
       <workItem from="1532606568333" duration="338000" />
-      <workItem from="1532748789876" duration="1212000" />
-    </task>
-    <task id="LOCAL-00045" summary="两个排序数组的中位数。">
-      <created>1523700233600</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1523700233600</updated>
-    </task>
-    <task id="LOCAL-00046" summary="合并两个间隔链表。">
-      <created>1523703220587</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1523703220587</updated>
+      <workItem from="1532748789876" duration="15801000" />
     </task>
     <task id="LOCAL-00047" summary="合并k个排序数组。">
       <created>1523774678234</created>
@@ -1408,11 +1383,25 @@
       <option name="project" value="LOCAL" />
       <updated>1532749886195</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="增加：增加空间复杂度为o(1)的解法。">
+      <created>1532762134427</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1532762134427</updated>
+    </task>
+    <task id="LOCAL-00095" summary="增加：移动非0 元素，交换法。">
+      <created>1532775411992</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1532775411992</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="471709000" />
+    <option name="totallyTimeSpent" value="486298000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1424,19 +1413,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
+    <frame x="-473" y="-1417" width="2560" height="1417" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32453245" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32453245" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32409546" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24422443" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24403387" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6479648" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32343236" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21184371" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13780779" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44884488" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1523,8 +1512,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="找出数组中重复的数。" />
-    <MESSAGE value="最大窗口问题。" />
     <MESSAGE value="计算流中的中位数。" />
     <MESSAGE value="二叉搜索树第k个节点。" />
     <MESSAGE value="按层遍历。" />
@@ -1548,7 +1535,9 @@
     <MESSAGE value="合并两个排序链表。" />
     <MESSAGE value="合并两个排序数组。" />
     <MESSAGE value="move zero 问题空间复杂度为o(n)版。" />
-    <option name="LAST_COMMIT_MESSAGE" value="move zero 问题空间复杂度为o(n)版。" />
+    <MESSAGE value="增加：增加空间复杂度为o(1)的解法。" />
+    <MESSAGE value="增加：移动非0 元素，交换法。" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加：移动非0 元素，交换法。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1611,7 +1600,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="344" />
+      <option name="time" value="345" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -2022,8 +2011,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/array/MoveZero.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="46" lean-forward="true" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+        <state relative-caret-position="438">
+          <caret line="70" column="31" lean-forward="true" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
           <folding />
         </state>
       </provider>

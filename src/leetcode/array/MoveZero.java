@@ -19,13 +19,12 @@ public class MoveZero {
 
 
     public static void main(String[] args) {
-        moveZeroes(testCase1);
-        moveZeroes(testCase2);
-        moveZeroes(testCase3);
-        moveZeroes(testCase4);
-        moveZeroes(testCase5);
-        moveZeroes(testCase6);
-
+//        moveZeroes(testCase1);
+//        moveZeroes(testCase2);
+//        moveZeroes(testCase3);
+//        moveZeroes(testCase4);
+//        moveZeroes(testCase5);
+//        moveZeroes(testCase6);
 
 
         moveZeroesII(testCase1);
@@ -39,26 +38,18 @@ public class MoveZero {
 
 
     public static void moveZeroesII(int[] nums) {
+        int noneZeroIndex = 0;
 
-        int noneZeroLength = 0;
-
-        int noneZeroArray[] = new int[nums.length];
-
-        //统计出非0项的元素
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] != 0) {
-                noneZeroArray[noneZeroLength++] = nums[i];
+                nums[noneZeroIndex++] = nums[i];
             }
         }
 
-        //如果i 不等于0
-        for (int i = 0; i < noneZeroLength; i++) {
-            nums[i] = noneZeroArray[i];
-        }
-
-        for (int i = noneZeroLength; i < nums.length; i++) {
+        for (int i = noneZeroIndex; i < nums.length; i++) {
             nums[i] = 0;
         }
+
         PrintUtil.printArray(nums);
 
     }
@@ -69,34 +60,11 @@ public class MoveZero {
     // 测试用例4： [2,2,0,0]
 
     public static void moveZeroes(int[] nums) {
-//        int countZero = 0;
-//
-//        //统计出0的个数
-//        for (int i = 0; i < nums.length; i++) {
-//            if (nums[i] == 0) {
-//                countZero++;
-//            }
-//        }
-//
-//        int i = 0;
-//
-//        //移动一遍，将每个数移动直到前面是非0项
-//        for (int k = 0; k < nums.length; ) {
-//            if (nums[k] == 0) {
-//                //如果是0 则覆盖该项
-//                for (int j = k; j + 1 < nums.length; j++) {
-//                    nums[j] = nums[j + 1];
-//                }
-//            } else {
-//                k++;
-//            }
-//        }
-//
-//        //将移动的数组尾部进行符0 操作
-//        for (int noneZeroIndex = nums.length - countZero; noneZeroIndex < nums.length; noneZeroIndex++) {
-//            nums[noneZeroIndex] = 0;
-//        }
+        int front = 0;
 
-//        PrintUtil.printArray(nums);
+        int noneZeroIndex = 0;
+
+
+        PrintUtil.printArray(nums);
     }
 }

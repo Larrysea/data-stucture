@@ -27,14 +27,17 @@ public class MoveZero {
 //        moveZeroes(testCase6);
 
 
-        moveZeroesII(testCase1);
-        moveZeroesII(testCase2);
-        moveZeroesII(testCase3);
-        moveZeroesII(testCase4);
-        moveZeroesII(testCase5);
-        moveZeroesII(testCase6);
+        moveZeroes(testCase1);
+        moveZeroes(testCase2);
+        moveZeroes(testCase3);
+        moveZeroes(testCase4);
+        moveZeroes(testCase5);
+        moveZeroes(testCase6);
+
 
     }
+
+//    0,1  jh  1 0 0 3 12
 
 
     public static void moveZeroesII(int[] nums) {
@@ -58,13 +61,30 @@ public class MoveZero {
     // 测试用例2： [0,0,2,2,0,0]
     // 测试用例3:  [0,0,2,2]
     // 测试用例4： [2,2,0,0]
+    //o(n)
 
     public static void moveZeroes(int[] nums) {
-        int front = 0;
 
-        int noneZeroIndex = 0;
+        int k = 0;
 
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] != 0) {
+                if (i != k) {
+                    swap(nums, k++, i);
+                } else {
+                    k++;
+                }
+            }
+        }
 
         PrintUtil.printArray(nums);
+
+    }
+
+
+    private static void swap(int[] nums, int left, int right) {
+        int temp = nums[left];
+        nums[left] = nums[right];
+        nums[right] = temp;
     }
 }

@@ -19,8 +19,12 @@ public class LongestPalindromeSubstring {
 
         String testCase4 = "abb";
 
-        PrintUtil.println(longestPalindrome(testCase1));
-        PrintUtil.print(longestPalindrome(testCase2));
+        String testCase5 = "bbbab";
+
+//        PrintUtil.println(longestPalindrome(testCase1));
+//        PrintUtil.print(longestPalindrome(testCase2));
+        PrintUtil.print(longestPalindrome(testCase5));
+
 
     }
 

@@ -14,7 +14,7 @@ import java.util.Collections;
  **/
 public class RemoveRepeatNode {
     public static void main(String[] args) {
-        int[] testCase1 = {1, 2, 3, 3, 3, 4, 4, 5};
+        int[] testCase1 = {1,1, 2, 3, 3, 3, 4, 4, 5};
         int[] testCase2 = {3, 3, 3};
         int[] testCase3 = {};
         int[] testCase4 = {1, 1, 1, 1, 2};

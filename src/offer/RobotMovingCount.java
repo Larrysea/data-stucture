@@ -10,7 +10,6 @@ public class RobotMovingCount {
 
 
     public static void main(String[] args) {
-      movingCount(18,);
     }
 
 
